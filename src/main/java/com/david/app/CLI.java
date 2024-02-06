@@ -9,7 +9,7 @@ import com.github.rvesse.airline.annotations.Cli;
 public class CLI{
     public static void main(String... args) {
         com.github.rvesse.airline.Cli<Runnable> cli = new com.github.rvesse.airline.Cli<>(CLI.class);
-        // Analiza los argumentos de la CLI y devuelve una instancia del comando correspondiente
+        // Analiza los argumentos de la CLI y devuelve una instancia del comando correspondiente.
         Runnable cmd = cli.parse(args);
         cmd.run();
     }

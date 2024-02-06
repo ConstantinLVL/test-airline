@@ -15,6 +15,7 @@
   </properties>
 
   <build>
+
     <plugins>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
@@ -40,6 +41,7 @@
         </executions>
       </plugin>
     </plugins>
+
   </build>
 
   <dependencies>

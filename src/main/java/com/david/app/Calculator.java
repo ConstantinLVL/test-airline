@@ -19,7 +19,7 @@ public class Calculator implements Runnable {
     @Override
     public void run() {
         if (operation == null || operands == null || operands.size() < 2) {
-            System.out.println("Invalid input. Please provide operation and at least two operands.");
+            System.out.println("Invalid input... Please provide operation and at least two operands.");
             return;
         }
         double result = calculateResult();
